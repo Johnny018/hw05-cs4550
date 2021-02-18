@@ -1,0 +1,57 @@
+/* This file is for your main application css. */
+@import "./phoenix.css";
+
+/* Alerts and form errors */
+.Guess { grid-area: Guess; }
+.Result { grid-area: Result; }
+.one { grid-area: one; }
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+.guess1 { grid-area: guess1; }
+.guess2 { grid-area: guess2; }
+.guess3 { grid-area: guess3; }
+.guess4 { grid-area: guess4; }
+.guess5 { grid-area: guess5; }
+.guess6 { grid-area: guess6; }
+.guess7 { grid-area: guess7; }
+.guess8 { grid-area: guess8; }
+.result1 { grid-area: result1; }
+.result2 { grid-area: result2; }
+.result3 { grid-area: result3; }
+.result4 { grid-area: result4; }
+.result5 { grid-area: result5; }
+.result6 { grid-area: result6; }
+.result7 { grid-area: result7; }
+.result8 { grid-area: result8; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". Guess Result"
+    "one guess1 result1"
+    "two guess2 result2"
+    "three guess3 result3"
+    "four guess4 result4"
+    "five guess5 result5"
+    "six guess6 result6"
+    "seven guess7 result7"
+    "eight guess8 result8";
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Jonathan Abadi
+
+
+2. What hostname did you deploy to?
+http://hw05.abadij.com/
+
+
+3. Which parts of this assignment did you have trouble with, if any?
+Setting up phoenix and elixir, I. Tried solving it with the tA's but no-one was able to help me.
+
+
+4. What part of your application state is on the server?
+I believe the js file
+
+
+5. What part of your application state, if any, is in the browser?
+I couldn't deploy it so no part.
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
